@@ -57,8 +57,6 @@ umask 022
 alias home='cd ~'
 alias sys='cd /var/log/'
 alias cd..='cd ..'
-alias cd../..='cd ../..'
-alias cd../../..='cd ../../..'
 
 # System Info
 alias now="date +%T"

@@ -65,6 +65,7 @@ alias mnt="mount | column -t"
 alias mem='free -h'
 alias disk='df -h | grep -v tmpfs'
 alias cpu='top -o %CPU'
+alias gpuz='xterm -fa "Monospace" -fs 8 -geometry 71x27 -hold -e radeontop -c &'
 
 # Listing/Viewing
 alias cls="clear; pwd; echo"
@@ -79,6 +80,8 @@ alias search='sudo grep -winr "./" -le'
 alias tracert='mtr'
 alias reload='source ~/.bash_aliases'
 alias genpass='openssl rand -base64 20 | cut -c1-16'
+
+# Exports
 
 # ==============================================
 #                   MOTD

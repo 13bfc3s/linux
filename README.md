@@ -1,4 +1,7 @@
 # linux
 
-So far this is just a bash_aliases file that i use.
-Don't forget to `source ~/.bashrc` after installation
+.bash_aliases
+just some workspace prepping.. don't forget to `source ~/.bashrc` after installation
+
+remote_sync.sh
+add this to crontab to sync. will update discord with syncs.

@@ -3,6 +3,9 @@
 .bash_aliases
 
 - just some workspace prepping.. don't forget to `source ~/.bashrc` after installation
+- source secrets from `~/.bash_secrets` if present
+- modern-tool aware: uses `rg`, `bat`, `eza`/`exa`, `zoxide`, `fzf`, and `direnv` when installed
+- add your private values to `~/.bash_secrets` and do not commit that file
 
 .
 .
@@ -12,7 +15,7 @@ syncthing_discord_notify.py
 
 - polls Syncthing `ItemFinished` events and posts `Sync: <path>` to Discord
 - requires `DISCORD_WEBHOOK_URL`
-- optional: `SYNCTHING_FOLDER_FILTER=jarr9-rzodj`
+- optional: `SYNCTHING_FOLDER_FILTER=<folder-id>[,<folder-id>...]`
 - optional: `SYNCTHING_CONFIG_PATH`, `SYNCTHING_STATE_PATH`, `SYNCTHING_LOG_PATH`
 - supports `--test`
 
